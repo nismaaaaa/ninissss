@@ -99,48 +99,5 @@
     </div>
 
     
-
-    <div class="container" id="education">
-        <header>
-            <h1>🎓 Education 🎓</h1>
-        </header>
-        <div class="content">
-            <div class="highlight-box">
-                <p>📚 SDN 5 Sindue (2011-2017)</p>
-                <p>🏫 MTs Muhammadiyah Watulimo (2017-2020)</p>
-                <p>🎓 SMK Yadika Palu (2020-2023)</p>
-            </div>
-        </div>
-        <button class="nav-button" onclick="showPage('about')">Back</button>
-        <button class="nav-button" onclick="showPage('experience')">Next</button>
-    </div>
-
-    <div class="container" id="experience">
-        <header>
-            <h1>Experience</h1>
-        </header>
-        <div class="content">
-            <p>Koordinator Konsumsi di Dies Natalis HMTI, Volunteer di Pekan Raya Mosinggani.</p>
-        </div>
-        <button class="nav-button" onclick="showPage('education')">Back</button>
-        <button class="nav-button" onclick="showPage('contact')">Next</button>
-    </div>
-
-    <div class="container" id="contact">
-        <header>
-            <h1>Contact Me</h1>
-        </header>
-        <div class="content">
-            <p>📧 Email: nisma2201@gmail.com<br>📱 WhatsApp: +62 813 5655 3484<br>📷 Instagram: @nisma_fathina01</p>
-        </div>
-        <button class="nav-button" onclick="showPage('experience')">Back</button>
-    </div>
-
-    <script>
-        function showPage(pageId) {
-            document.querySelectorAll('.container').forEach(page => page.classList.remove('active'));
-            document.getElementById(pageId).classList.add('active');
-        }
-    </script>
 </body>
 </html>
