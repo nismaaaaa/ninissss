@@ -98,19 +98,7 @@
         </header>
     </div>
 
-    <div class="container" id="about">
-        <header>
-            <h1>✨ Welcome to My Story! 📖 💖</h1>
-        </header>
-        <div class="content">
-            <div class="highlight-box">
-                <h2>👋 Halo, Aku Nisma!</h2>
-                <p>Berumur 20 tahun, anak kedua dari dua bersaudara! Saat ini menempuh pendidikan di Universitas Tadulako, Program Studi Sistem Informasi.</p>
-            </div>
-            <button class="nav-button" onclick="showPage('home')">Back</button>
-            <button class="nav-button" onclick="showPage('education')">Next</button>
-        </div>
-    </div>
+    
 
     <div class="container" id="education">
         <header>
